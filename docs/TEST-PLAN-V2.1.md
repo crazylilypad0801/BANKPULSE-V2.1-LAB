@@ -44,3 +44,19 @@ Create a feature branch and Pull Request to main. Required GitHub Actions jobs:
 - Build, integration and observability
 
 Both must be green before merge.
+
+## 7. Sprint 1 - Verificacion de salud del sistema
+
+Historia de usuario: HU-BP-01 (identificador provisional; confirmar con el backlog).
+
+Objetivo: comprobar que el sistema responde correctamente a la consulta de salud.
+
+Pasos:
+1. Iniciar los servicios con Docker Compose.
+2. Consultar el endpoint GET /health del backend correspondiente.
+3. Verificar que la respuesta HTTP sea 200.
+4. Registrar el resultado y guardar una captura como evidencia.
+
+Resultado esperado: el servicio responde con HTTP 200.
+
+Resultado obtenido: pendiente de ejecutar y verificar.
