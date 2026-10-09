@@ -1,6 +1,7 @@
 name: BANKdragon V2.1 CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
